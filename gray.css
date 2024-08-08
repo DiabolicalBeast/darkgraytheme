@@ -3,18 +3,8 @@ body {
   font-family: 'Georgia', serif;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 * {
   cursor: url(https://i.postimg.cc/zDgYcFhf/cursor.png), auto;
   -webkit-user-select: none;
   -webkit-user-drag: none;
 }
-
