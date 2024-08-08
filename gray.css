@@ -1,0 +1,20 @@
+body {
+  background-image: url(https://i.postimg.cc/B6JDvLWj/3PSd6tq.png);
+  font-family: 'Georgia', serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+* {
+  cursor: url(https://i.postimg.cc/zDgYcFhf/cursor.png), auto;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
