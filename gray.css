@@ -1,52 +1,10 @@
 body {
   background-image: url(https://i.postimg.cc/B6JDvLWj/3PSd6tq.png);
   font-family: 'Georgia', serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; /* Centra el contenedor de la tabla horizontalmente */
-  align-items: center; /* Centra verticalmente el contenedor de la tabla */
-  height: 100vh; /* Asegura que el contenedor tenga el 100% de la altura de la ventana */
-  position: relative;
-  cursor: url(https://i.postimg.cc/zDgYcFhf/cursor.png), auto; /* Cambia el cursor */
-  -webkit-user-select: none; /* Desactiva la selección de texto en WebKit */
-  -webkit-user-drag: none; /* Desactiva el arrastre de elementos en WebKit */
 }
 
-.table-container {
-  display: flex;
-  justify-content: flex-start; /* Alinea el contenedor hacia la izquierda */
-  align-items: flex-start; /* Alinea el contenedor hacia la parte superior */
-  position: relative;
-  top: 30px; /* Desplaza hacia abajo */
-  left: 200px; /* Desplaza hacia la derecha */
-}
-
-.main-table {
-  border-collapse: collapse;
-}
-
-.inner-table {
-  margin: 0 auto; /* Centra la tabla dentro de su contenedor */
-}
-
-.info-table {
-  margin: 0;
-}
-
-.details-table {
-  text-align: left; /* Alinea el contenido de la tabla de detalles a la izquierda */
-}
-
-.centered-img-cell {
-  text-align: center; /* Centra horizontalmente el contenido de la celda */
-  vertical-align: middle; /* Centra verticalmente el contenido de la celda */
-  height: 100%; /* Asegura que la celda ocupa el espacio completo de su fila */
-}
-
-.centered-img-cell img {
-  display: block; /* Asegura que la imagen se comporta como un bloque */
-  margin: 0 auto; /* Centra la imagen horizontalmente dentro de su celda */
-  max-width: 100%; /* Asegura que la imagen no exceda el ancho de la celda */
-  height: auto; /* Mantiene la proporción de la imagen */
+* {
+  cursor: url(https://i.postimg.cc/zDgYcFhf/cursor.png), auto;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
